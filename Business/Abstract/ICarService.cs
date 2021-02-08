@@ -5,8 +5,13 @@ using Entities.Concrete;
 
 namespace Business.Abstract
 {
-    interface ICarService
+    public interface ICarService
     {
+        void Add(Car car,Brand brand);
+        void Update(Car car);
+        void Delete(Car car);
         List<Car> GetAll();
+        List<Car> GetCarsByBrandId(int Id);
+        List<Car> GetCarsByColorId(int Id);
     }
 }
