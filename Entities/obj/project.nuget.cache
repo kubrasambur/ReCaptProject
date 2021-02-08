@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IzDQ/HFXwdq23l5YclYNhsbBi1CEjU+cnuKMEUCarxwLe1o+JPnJqJ+krX3TJkTBGBphvKDZ3W2mJvS0JSQv5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asus\\Dropbox\\My PC (LAPTOP-LL82CLG7)\\Desktop\\C#\\ReCaptProject\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
