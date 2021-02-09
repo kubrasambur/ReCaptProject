@@ -78,3 +78,5 @@ C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\ConsoleUI
 C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.dll
 C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.pdb
 C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.genruntimeconfig.cache
+C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb

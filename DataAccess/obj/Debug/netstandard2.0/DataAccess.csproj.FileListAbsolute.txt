@@ -22,3 +22,5 @@ C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\DataAcces
 C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb

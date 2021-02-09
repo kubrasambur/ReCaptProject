@@ -26,3 +26,5 @@ C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\Business\
 C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\Business\bin\Debug\netstandard2.0\Core.pdb

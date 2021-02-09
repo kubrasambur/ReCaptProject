@@ -5,6 +5,7 @@ using System.Text;
 using Business.Abstract;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace Business.Concrete
 {
@@ -19,7 +20,7 @@ namespace Business.Concrete
 
         public void Add(Car car,Brand brand)
         {
-            if(car.DailyPrice>0 && brand.Name.Length>2)
+            if(car.DailyPrice>0 && brand.BrandName.Length>2)
             {
                 _carDal.Add(car);
             }
@@ -37,6 +38,11 @@ namespace Business.Concrete
         public List<Car> GetAll()
         {
             return _carDal.GetAll();
+        }
+
+        public List<CarDetailDto> GetCarDetail()
+        {
+            throw new NotImplementedException();
         }
 
         public List<Car> GetCarsByBrandId(int Id)

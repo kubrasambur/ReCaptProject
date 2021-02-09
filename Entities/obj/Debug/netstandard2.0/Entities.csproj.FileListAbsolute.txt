@@ -16,3 +16,6 @@ C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\Entities\
 C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
 C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\asus\Dropbox\My PC (LAPTOP-LL82CLG7)\Desktop\C#\ReCaptProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
