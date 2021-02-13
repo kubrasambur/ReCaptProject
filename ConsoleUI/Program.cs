@@ -23,6 +23,7 @@ namespace ConsoleUI
             //UsersTest();
 
             //RentalTest2();
+
         }
 
         private static void RentalTest2()
