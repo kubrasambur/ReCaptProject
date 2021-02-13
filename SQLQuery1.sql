@@ -5,8 +5,8 @@
 	ModelYear int,
 	DailyPrice decimal,
 	Descriptions nvarchar(25),
-	Foreign Key (BrandId) References Colors(ColorId),
-	Foreign Key (ColorId) References Brands(BrandId)
+	Foreign Key (BrandId) References Brands(BrandId),
+	Foreign Key (ColorId) References Colors(ColorId)
 )
 Create table Colors(
 	ColorId int primary Key identity(1,1),
@@ -16,29 +16,29 @@ Create table Brands(
 	BrandId int Primary Key identity (1,1),
 	BrandName nvarchar(25)
 )
-Insert Into Cars(BrandId,ColorId,ModelYear,DailyPrice,Descriptions)
-Values
-	('1','1','2003','500','Otomatik Hybrid'),
-	('2','2','2014','800','Otomatik benzin'),
-	('4','2','2009','400','Manuel dizel'),
-	('2','3','2004','700','Manuel benzin'),
-	('3','1','2019','200','Otomatik dizel')
-
-Insert Into Brands(BrandName)
-Values
-	('Toyota'),
-	('Audi'),
-	('Tesla'),
-	('Mercedes'),
-	('Fiat')
-
-Insert Into Colors (ColorName)
-Values
-	('Siyah'),
-	('Lacivert'),
-	('Beyaz')
+Create table Users(
+	Id int Primary Key Identity (1,1),
+	FirstName nvarchar(25),
+	LastName nvarchar(25),
+	Email nvarchar(25),
+	Password nvarchar(25)
+)
+Create table Customers(
+	UserId int Primary Key Identity (1,1),
+	CompanyName nvarchar(25)
+	FOREIGN KEY (UserId) REFERENCES Users(Id)
+)
+Create table Rentals(
+	Id int Primary Key Identity (1,1),
+	CarId int,
+	CustomerId int,
+	RentDate DateTime,
+	ReturnDate DateTime
+)
 
 Select * from Cars
 Select * from Brands
 Select * from Colors
+Select * from Users
+Select * from Customers
 

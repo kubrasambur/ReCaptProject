@@ -14,8 +14,68 @@ namespace ConsoleUI
 
             //BrandTest();
 
-            ColorTest();
+            //ColorTest();
 
+            //RentalTest();
+
+            //CustomerTest();
+
+            //UsersTest();
+
+            //RentalTest2();
+        }
+
+        private static void RentalTest2()
+        {
+            RentalManager rentalManager1 = new RentalManager(new EfRentalDal());
+            var result = rentalManager1.GetCarStatus(1);
+            if (result.Success == true)
+            {
+                Console.WriteLine(result.Message);
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+        }
+
+        private static void UsersTest()
+        {
+            UserManager userManager = new UserManager(new EfUserDal());
+            var result = userManager.Add(new User { FirstName = "Kübra", LastName = "Sambur", Email = "k@gmail.com", Password = "123" });
+            if (result.Success)
+            {
+                Console.WriteLine(result.Message);
+            }
+        }
+
+        private static void CustomerTest()
+        {
+            CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+            var result = customerManager.Add(new Customer { CompanyName = "Kartal" });
+            if (result.Success)
+            {
+                Console.WriteLine(result.Message);
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+        }
+
+        private static void RentalTest()
+        {
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            var result = rentalManager.Add(new Rental { CarId = 1, CustomerId = 2, RentDate = new DateTime(2020, 02, 13)});
+            if (result.Success)
+            {
+                Console.WriteLine(result.Message);
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
+
+            }
         }
 
         private static void ColorTest()
